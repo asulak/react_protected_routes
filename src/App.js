@@ -1,4 +1,4 @@
-import Register from './components/Register';
+import Register from './components/Register';    //User-based permissions 
 import Login from './components/Login';
 import Home from './components/Home';
 import Layout from './components/Layout';
