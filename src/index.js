@@ -7,10 +7,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <AuthProvider>
+    <BrowserRouter>    
+      <AuthProvider>   // Used in login tutorial. From the context API
         <Routes>
-          <Route path="/*" element={<App />} />
+          <Route path="/*" element={<App />} />   //For nested routes
         </Routes>
       </AuthProvider>
     </BrowserRouter>
